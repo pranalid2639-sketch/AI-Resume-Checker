@@ -1,0 +1,54 @@
+# =========================
+# Python Backend
+# =========================
+
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Generated Files
+backend/ATS_Report.pdf
+
+# =========================
+# Next.js Frontend
+# =========================
+
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build files
+/build
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Vercel
+# =========================
+
+.vercel
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
