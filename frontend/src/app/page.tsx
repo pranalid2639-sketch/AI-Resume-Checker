@@ -28,7 +28,7 @@ export default function Home() {
       formData.append("jd", jd);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/analyze",
+        "https://ai-resume-checker-backend-rdso.onrender.com/analyze",
         {
           method: "POST",
           body: formData,
@@ -56,7 +56,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/download-report",
+        "https://ai-resume-checker-backend-rdso.onrender.com/download-report",
         {
           method: "POST",
           headers: {
